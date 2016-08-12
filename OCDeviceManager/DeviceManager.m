@@ -66,11 +66,11 @@
             break;
         }
         CASE (@"iPhone7,1") {
-            deviceType = iPhone6;
+            deviceType = iPhone6Plus;
             break;
         }
         CASE (@"iPhone7,2") {
-            deviceType = iPhone6Plus;
+            deviceType = iPhone6;
             break;
         }
         CASE (@"iPhone8,1") {
