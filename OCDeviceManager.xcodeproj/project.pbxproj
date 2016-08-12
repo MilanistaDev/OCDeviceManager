@@ -14,6 +14,7 @@
 		FDD826201D5D7E1B005E932E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD8261F1D5D7E1B005E932E /* Assets.xcassets */; };
 		FDD826231D5D7E1B005E932E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD826211D5D7E1B005E932E /* LaunchScreen.storyboard */; };
 		FDD8262B1D5D8FE6005E932E /* DeviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDD8262A1D5D8FE6005E932E /* DeviceList.plist */; };
+		FDD826311D5D927B005E932E /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD826301D5D927B005E932E /* DeviceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		FDD826221D5D7E1B005E932E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD826241D5D7E1B005E932E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD8262A1D5D8FE6005E932E /* DeviceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceList.plist; sourceTree = "<group>"; };
+		FDD8262F1D5D927B005E932E /* DeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
+		FDD826301D5D927B005E932E /* DeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				FDD826171D5D7E1B005E932E /* AppDelegate.m */,
 				FDD826191D5D7E1B005E932E /* ViewController.h */,
 				FDD8261A1D5D7E1B005E932E /* ViewController.m */,
+				FDD8262F1D5D927B005E932E /* DeviceManager.h */,
+				FDD826301D5D927B005E932E /* DeviceManager.m */,
 				FDD8262A1D5D8FE6005E932E /* DeviceList.plist */,
 				FDD8261C1D5D7E1B005E932E /* Main.storyboard */,
 				FDD8261F1D5D7E1B005E932E /* Assets.xcassets */,
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD8261B1D5D7E1B005E932E /* ViewController.m in Sources */,
+				FDD826311D5D927B005E932E /* DeviceManager.m in Sources */,
 				FDD826181D5D7E1B005E932E /* AppDelegate.m in Sources */,
 				FDD826151D5D7E1B005E932E /* main.m in Sources */,
 			);
