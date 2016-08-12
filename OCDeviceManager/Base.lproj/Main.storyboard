@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--iOS Device Checker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -16,9 +16,42 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xR7-OC-0gJ">
+                                <rect key="frame" x="278" y="470" width="44" height="30"/>
+                                <state key="normal" title="Check"/>
+                                <connections>
+                                    <action selector="checkDeviceAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SVa-2a-hrg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZQ-uo-Osv">
+                                <rect key="frame" x="243" y="124" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your iOS Device" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-N8-f6p">
+                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HZQ-uo-Osv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Lb-vy-xio"/>
+                            <constraint firstItem="HSy-N8-f6p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ar6-Ax-X9g"/>
+                            <constraint firstItem="HZQ-uo-Osv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Us1-tQ-LOu"/>
+                            <constraint firstItem="HSy-N8-f6p" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rbI-QZ-P6X"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xR7-OC-0gJ" secondAttribute="bottom" constant="100" id="t1J-l2-Lmx"/>
+                            <constraint firstItem="xR7-OC-0gJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zSv-Jk-oyL"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="UYS-U2-bcZ"/>
+                    <navigationItem key="navigationItem" title="iOS Device Checker" id="UYS-U2-bcZ"/>
+                    <connections>
+                        <outlet property="modelNumberLabel" destination="HZQ-uo-Osv" id="uc9-21-fz9"/>
+                        <outlet property="useriOSDeviceLabel" destination="HSy-N8-f6p" id="1rA-4O-HoU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
