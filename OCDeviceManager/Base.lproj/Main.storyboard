@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xR7-OC-0gJ">
-                                <rect key="frame" x="278" y="470" width="44" height="30"/>
+                                <rect key="frame" x="278" y="365" width="44" height="30"/>
                                 <state key="normal" title="Check"/>
                                 <connections>
                                     <action selector="checkDeviceAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SVa-2a-hrg"/>
@@ -31,21 +31,47 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your iOS Device" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-N8-f6p">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="238" y="249" width="123" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some change will happen only with a particular device." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5R-94-0aU">
+                                <rect key="frame" x="145.5" y="510" width="310.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvI-bD-bVi">
+                                <rect key="frame" x="249" y="455" width="103" height="30"/>
+                                <state key="normal" title="Are you ready?"/>
+                                <connections>
+                                    <action selector="CorrespondingDeviceCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGF-cl-kyj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HZQ-uo-Osv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Lb-vy-xio"/>
+                            <constraint firstItem="JvI-bD-bVi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3pU-oR-icS"/>
+                            <constraint firstItem="JvI-bD-bVi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Gw-RC-ueO"/>
+                            <constraint firstItem="X5R-94-0aU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1d-oL-bJc"/>
                             <constraint firstItem="HSy-N8-f6p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ar6-Ax-X9g"/>
                             <constraint firstItem="HZQ-uo-Osv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Us1-tQ-LOu"/>
-                            <constraint firstItem="HSy-N8-f6p" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rbI-QZ-P6X"/>
+                            <constraint firstItem="xR7-OC-0gJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="pAc-Va-SD3"/>
+                            <constraint firstItem="JvI-bD-bVi" firstAttribute="top" secondItem="xR7-OC-0gJ" secondAttribute="bottom" constant="60" id="qyO-VT-5vw"/>
+                            <constraint firstItem="X5R-94-0aU" firstAttribute="top" secondItem="JvI-bD-bVi" secondAttribute="bottom" constant="25" id="qyn-Qe-AhL"/>
+                            <constraint firstItem="HSy-N8-f6p" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="rbI-QZ-P6X"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xR7-OC-0gJ" secondAttribute="bottom" constant="100" id="t1J-l2-Lmx"/>
+                            <constraint firstItem="xR7-OC-0gJ" firstAttribute="top" secondItem="JvI-bD-bVi" secondAttribute="bottom" constant="8" id="tz0-L1-urQ"/>
                             <constraint firstItem="xR7-OC-0gJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zSv-Jk-oyL"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tz0-L1-urQ"/>
+                                <exclude reference="t1J-l2-Lmx"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="iOS Device Checker" id="UYS-U2-bcZ"/>
                     <connections>
@@ -55,6 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="440" y="387"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2zK-yL-KFL">

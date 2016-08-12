@@ -14,7 +14,7 @@ typedef NS_ENUM (NSInteger, DeviceType) {
     iPhone4S,
     iPhone5,
     iPhone5c,
-    iPhone5S,
+    iPhone5s,
     iPhone6Plus,
     iPhone6,
     iPhone6s,

@@ -43,9 +43,26 @@
 
     DeviceType deviceType = [DeviceManager currentDeviceType];
 
-    NSString *deviceTypeStr = [NSString stringWithFormat:@"%ld", deviceType];
+    NSString *deviceTypeStr = [NSString stringWithFormat:@"%ld", (long)deviceType];
     NSString *deviceName = [self.deviceDic objectForKey:deviceTypeStr];
     self.useriOSDeviceLabel.text = deviceName;
+}
+
+/**
+ * When the button pushed, some change will happen only with a particular device.
+ */
+- (IBAction)CorrespondingDeviceCheck:(id)sender {
+
+    DeviceType deviceType = [DeviceManager currentDeviceType];
+    if (deviceType == iPhone5s) {
+        self.view.backgroundColor = [UIColor greenColor];
+    } else if (deviceType == iPhone6) {
+        self.view.backgroundColor = [UIColor redColor];
+    } else if (deviceType == iPhone6s) {
+        self.view.backgroundColor = [UIColor blueColor];
+    } else if (deviceType == iPadmini2) {
+        self.view.backgroundColor = [UIColor cyanColor];
+    }
 }
 
 #pragma mark - Not specail
