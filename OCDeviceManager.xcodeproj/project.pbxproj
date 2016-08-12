@@ -13,6 +13,7 @@
 		FDD8261E1D5D7E1B005E932E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD8261C1D5D7E1B005E932E /* Main.storyboard */; };
 		FDD826201D5D7E1B005E932E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD8261F1D5D7E1B005E932E /* Assets.xcassets */; };
 		FDD826231D5D7E1B005E932E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD826211D5D7E1B005E932E /* LaunchScreen.storyboard */; };
+		FDD8262B1D5D8FE6005E932E /* DeviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDD8262A1D5D8FE6005E932E /* DeviceList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FDD8261F1D5D7E1B005E932E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD826221D5D7E1B005E932E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDD826241D5D7E1B005E932E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD8262A1D5D8FE6005E932E /* DeviceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FDD826171D5D7E1B005E932E /* AppDelegate.m */,
 				FDD826191D5D7E1B005E932E /* ViewController.h */,
 				FDD8261A1D5D7E1B005E932E /* ViewController.m */,
+				FDD8262A1D5D8FE6005E932E /* DeviceList.plist */,
 				FDD8261C1D5D7E1B005E932E /* Main.storyboard */,
 				FDD8261F1D5D7E1B005E932E /* Assets.xcassets */,
 				FDD826211D5D7E1B005E932E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				FDD826231D5D7E1B005E932E /* LaunchScreen.storyboard in Resources */,
 				FDD826201D5D7E1B005E932E /* Assets.xcassets in Resources */,
+				FDD8262B1D5D8FE6005E932E /* DeviceList.plist in Resources */,
 				FDD8261E1D5D7E1B005E932E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				FDD826291D5D7E1B005E932E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
