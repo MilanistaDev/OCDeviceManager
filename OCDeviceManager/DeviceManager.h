@@ -20,6 +20,8 @@ typedef NS_ENUM (NSInteger, DeviceType) {
     iPhone6s,
     iPhone6sPlus,
     iPhoneSE,
+    iPhone7,
+    iPhone7Plus,
     iPad3,
     iPad4,
     iPadAir,

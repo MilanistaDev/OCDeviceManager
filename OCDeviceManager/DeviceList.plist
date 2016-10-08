@@ -30,28 +30,32 @@
         <key>9</key>
         <string>iPhone SE</string>
         <key>10</key>
-        <string>iPad mini 1</string>
+        <string>iPhone 7</string>
         <key>11</key>
-        <string>iPad 3</string>
+        <string>iPhone 7 Plus</string>
         <key>12</key>
-        <string>iPad 4</string>
+        <string>iPad mini 1</string>
         <key>13</key>
-        <string>iPad Air</string>
+        <string>iPad 3</string>
         <key>14</key>
-        <string>iPad mini 2</string>
+        <string>iPad 4</string>
         <key>15</key>
-        <string>iPad mini 3</string>
+        <string>iPad Air</string>
         <key>16</key>
-        <string>iPad mini 4</string>
+        <string>iPad mini 2</string>
         <key>17</key>
-        <string>iPad Air 2</string>
+        <string>iPad mini 3</string>
         <key>18</key>
-        <string>iPad Pro 9.7</string>
+        <string>iPad mini 4</string>
         <key>19</key>
-        <string>iPad Pro 12.9</string>
+        <string>iPad Air 2</string>
         <key>20</key>
-        <string>iPod touch 5</string>
+        <string>iPad Pro 9.7</string>
         <key>21</key>
+        <string>iPad Pro 12.9</string>
+        <key>22</key>
+        <string>iPod touch 5</string>
+        <key>23</key>
         <string>iPod touch 6</string>
     </dict>
 </plist>

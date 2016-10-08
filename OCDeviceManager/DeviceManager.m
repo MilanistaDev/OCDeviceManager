@@ -85,6 +85,14 @@
             deviceType = iPhoneSE;
             break;
         }
+        CASE (@"iPhone9,1") {
+            deviceType = iPhone7;
+            break;
+        }
+        CASE (@"iPhone9,2") {
+            deviceType = iPhone7Plus;
+            break;
+        }
         CASE (@"iPad2,5") {
             deviceType = iPadmini1;
             break;
