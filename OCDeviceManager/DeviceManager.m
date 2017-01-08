@@ -197,7 +197,7 @@
             deviceType = iPodtouch5;
             break;
         }
-        CASE (@"iPod5,1") {
+        CASE (@"iPod7,1") {
             deviceType = iPodtouch6;
             break;
         }
