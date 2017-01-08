@@ -11,6 +11,8 @@ Objective-C で書かれています。Swift 版は出来次第アップロー�
 Swift 3 版です。
 [Swift 3 Version](https://github.com/MilanistaDev/DeviceManager)
 
+![ScreenShot](https://2.bp.blogspot.com/-2Hrr8oEwuvw/WHKeddOIIGI/AAAAAAAAEDA/Q4r0VaOjsf0JM9FgkzbPiWdfjBiervGGgCLcB/s1600/ScrrenShot.jpg "ScreenShot")
+
 ## 使い方
 
 1. 下記の3ファイルをプロジェクトに追加します。
