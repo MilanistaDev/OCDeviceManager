@@ -8,6 +8,8 @@ English Version of readme is not completed. After writing, add explanation. So s
 ## 概要
 このアプリは，バグで端末依存とかで，ある端末のみ別の対応をしなければならないといったときに直感的に対処できるように作ったデバイスチェッカーです。
 Objective-C で書かれています。Swift 版は出来次第アップロードします。
+Swift 3 版です。
+[Swift 3 Version](https://github.com/MilanistaDev/DeviceManager)
 
 ## 使い方
 
